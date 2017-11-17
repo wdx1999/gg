@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace="某个接口名称" -->
+<mapper namespace="cn.smbms.mapper.RoleDao">
+	<select id="queryRoleList" resultType="role">
+	   select * from smbms_role 
+	</select>
+	
+</mapper>
